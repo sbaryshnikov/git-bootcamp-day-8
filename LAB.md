@@ -8,9 +8,9 @@
 
 | Что | URL |
 |-----|-----|
-| Репозиторий | [FIXME: https://github.com/.../git-bootcamp-day-8] |
-| Issue | [FIXME: https://github.com/.../git-bootcamp-day-8/issues/N] |
-| Pull Request | [FIXME: https://github.com/.../git-bootcamp-day-8/pull/N] |
+| Репозиторий | https://github.com/sbaryshnikov/git-bootcamp-day-8.git |
+| Issue | https://github.com/sbaryshnikov/git-bootcamp-day-8/issues/2 |
+| Pull Request | https://github.com/sbaryshnikov/git-bootcamp-day-8/pull/1 |
 
 ### Скриншоты (обязательные)
 
@@ -45,12 +45,10 @@
 ### Команды
 
 ```bash
-# git switch -c feature/<slug>
-# git add … && git commit -m "feat(...): …"
-# git add … && git commit -m "test(...): …"
-# git add … && git commit -m "docs: …"
-# go test ./...
-# git push -u origin feature/<slug>
+# git switch -c feature/longest-line
+# git add cmd/wordcount/main.go internal/stats/longest.go && git commit -m "feat(wordcount): Add feature longest"
+# git add internal/stats/longest_test.go && git commit -m "test(wordcount): Add tests for longest"
+# git add && git commit -m "docs(wordcount): Add docs for longest"
 ```
 
 ### Впечатления (2–3 предложения)
