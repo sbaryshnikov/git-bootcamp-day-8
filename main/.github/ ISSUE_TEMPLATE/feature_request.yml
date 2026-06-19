@@ -1,0 +1,19 @@
+---
+name: Feature request
+about: Propose a new CLI flag or behavior
+title: "feat: "
+labels: enhancement
+---
+
+## Summary
+
+What should the tool do?
+
+## Motivation
+
+Why is this useful?
+
+## Acceptance criteria
+
+- [ ] Behavior is documented in README
+- [ ] Tests cover the new behavior
